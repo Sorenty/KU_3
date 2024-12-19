@@ -1,0 +1,21 @@
+; Объявляем константу
+port: 8080
+
+; Объявляем массив
+servers: { server1. server2. server3 }
+
+; Объявляем словарь с именами и числами
+table([
+    username = admin,
+    password = 12345
+])
+
+; Объявляем сложный словарь с вложенным массивом и другим словарем
+table([
+    name = MyApp,
+    version = 1.0,
+    servers = { server1. server2. server3 },
+])
+
+; Объявляем ещё один массив
+features: { featureA. featureB. featureC }
